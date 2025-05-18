@@ -7,11 +7,23 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <!-- <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Tab 3</ion-title>
     </ion-toolbar>
-  </ion-header>
+  </ion-header> -->
 
+
+  <ng-container *ngIf="showSplash">
+  <div class="splash-screen">
+    <img src="assets/samsung-gaming-hub.jpg" alt="Splash" />
+    <div class="splash-text">
+      <h1>Bienvenido a la sección de juegos</h1>
+      <p>Explora las últimas actualizaciones y novedades</p>
+    </div>
+    
+  </div>
+  </ng-container>
+  <ng-container *ngIf="!showSplash"></ng-container>
   <app-explore-container name="Tab 3 page"></app-explore-container>
 </ion-content>

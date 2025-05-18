@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-tab3',
@@ -6,7 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['tab3.page.scss'],
   standalone: false,
 })
-export class Tab3Page {
+export class Tab3Page{
+
+  showSplash=true;
+  ionViewWillEnter() {
+    this.showSplash=true;
+    setTimeout(() => {
+      this.showSplash=false;
+    }, 5000);
+     
+  }
 
   constructor() {}
 
