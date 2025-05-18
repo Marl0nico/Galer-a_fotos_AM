@@ -32,6 +32,17 @@ Para este literal se ha implementado un botón el cual tenga como función princ
 Finalmente, se ha aplicado un par de botones extra donde se le permita al usuario poder escoger entre tomar la fotografía al máximo de resolución posible o tomarla únicamente al 50% de resolución total.
 Este cambio podría tener efectos como menor peso en las fotografías tomadas aunque comprometiendo su resolución y mayor rapidez al momento de trabajar con la galería de fotos.
 
+5.- Implementar un ícono personalizado y un splash screen (rama Cambio_5)
+
+![Imagen de WhatsApp 2025-05-17 a las 19 16 51_41a619ee](https://github.com/user-attachments/assets/b6c39aff-295d-4728-bad8-dad64e16123b)
+
+En la pestaña 3 se ha implementado un ícono personalizado que hace referencia a un ícono de videojuegos y en este mismo apartado se ha colocado el splash screen el cual hace referencia a un espacio dedicado a videojuegos. Se ha agregado una imagen junto con texto, los cuales en conjunto tienen una duración de 5 segundos antes de desaparecer y dar paso al contenido de esa pestaña.
+
+Una vez diseñados ambos cambios, se ha realizado la construcción y exportación del proyecto hacia Android Studio en donde se pueden ver los cambios realizados pero ahora adaptados a la resolución de pantalla de un dispositivo móvil.
+
+![Imagen de WhatsApp 2025-05-17 a las 19 24 23_d0f8138a](https://github.com/user-attachments/assets/6be107d4-51c6-4967-9674-839c8a551d19)
+![Imagen de WhatsApp 2025-05-17 a las 19 24 23_ed570e0a](https://github.com/user-attachments/assets/72898054-cbd1-4418-a239-1dc23ce0a278)
+
 Vale la pena mencionar que el trabajo original se encuentra en la rama principal del repositorio y que para el desarrollo de los literales propuestos, se han utilizado referencias clave de Ionic.
 
 Referencias:
