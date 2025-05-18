@@ -41,7 +41,10 @@ En la pestaña 3 se ha implementado un ícono personalizado que hace referencia 
 Una vez diseñados ambos cambios, se ha realizado la construcción y exportación del proyecto hacia Android Studio en donde se pueden ver los cambios realizados pero ahora adaptados a la resolución de pantalla de un dispositivo móvil.
 
 ![Imagen de WhatsApp 2025-05-17 a las 19 24 23_d0f8138a](https://github.com/user-attachments/assets/6be107d4-51c6-4967-9674-839c8a551d19)
+
 ![Imagen de WhatsApp 2025-05-17 a las 19 24 23_ed570e0a](https://github.com/user-attachments/assets/72898054-cbd1-4418-a239-1dc23ce0a278)
+
+Nota: la APK generada de este apartado se encuentra en su respectiva rama.
 
 Vale la pena mencionar que el trabajo original se encuentra en la rama principal del repositorio y que para el desarrollo de los literales propuestos, se han utilizado referencias clave de Ionic.
 
